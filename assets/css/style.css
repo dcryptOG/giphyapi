@@ -1,10 +1,9 @@
 #content {
   display: inline-flex;
   margin: 10px;
-  
 }
 
-#animal-view {
+#animals {
   display: flex;
   flex-flow: wrap;
 }
@@ -19,29 +18,25 @@ img {
 }
 
 button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 10px;
-  
-}
-
-input {
-  margin: auto 0;
+  background-color: greenyellow;
+  /* Green */
+  border: 2px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px;
 }
 
 #add-animal {
-     background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 10px;
+  background-color: greenyellow;
+  /* Green */
+  border: 2px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px;
 }
-

@@ -8,12 +8,46 @@ In this assignment, you'll use the GIPHY API to make a dynamic web page that pop
 
 ### Before You Begin
 
+api key = ngH9lc0v78v1lu9C4Ov2ftYhCwzhCwIN
+
 1. **Hit the GIPHY API**.
    * Fool around with the GIPHY API. [Giphy API](https://developers.giphy.com/docs/).
    * Be sure to read about these GIPHY parameters (hint, hint):
      * `q`
      * `limit`
      * `rating`
+
+api_key: string
+
+GIPHY API Key.
+	YOUR_API_KEY
+q: string
+
+Search query term or phrase.
+
+*GIPHY search will automatically look for exact matches to queries + AND match + OR match. Explicit AND + OR boolean clauses in search queries are not supported.
+	cheeseburgers
+limit: integer (int32)
+
+The maximum number of records to return.
+25 	20
+offset: integer (int32)
+
+An optional results offset. Defaults to 0.
+	5
+rating: string
+
+Filters results by specified rating.
+	g
+lang: string
+
+Specify default language for regional content; use a 2-letter ISO 639-1 language code. See list of supported languages here.
+	en
+fmt: string
+
+Used to indicate the expected response format. Default is Json.
+	json
+
    * Like many APIs, GIPHY requires developers to use a key to access their API data. To use the GIPHY API, you'll need a GIPHY account (don't worry, it's free!) and then obtain an API Key by [creating an app](https://developers.giphy.com/dashboard/?create=true).
    * Make sure you switch the protocol in the query URL from **`http to https`**, or the app may not work properly when deployed to Github Pages.
 
