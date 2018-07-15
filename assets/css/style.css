@@ -1,3 +1,20 @@
+body {
+  background-image: url(../images/background.jpg);
+}
+
+button { cursor:pointer}
+
+#animal-form {
+  text-align: center;
+}
+
+label {
+  background-color: black;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
 #content {
   display: inline-flex;
   margin: 10px;
