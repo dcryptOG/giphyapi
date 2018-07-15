@@ -57,3 +57,8 @@ button {
   font-size: 16px;
   margin: 10px;
 }
+
+p {
+  color: white;
+  background-color: black;
+}
